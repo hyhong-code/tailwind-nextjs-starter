@@ -1,11 +1,11 @@
 export default function Home() {
   return (
-    <div className="flex justify-center">
+    <div className="group flex justify-center">
       <a
         href="https://github.com/hyhong-code/tailwind-nextjs-starter"
         target="_blank"
         rel="noopener noreferrer"
-        className="btn m-4 inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform hover:scale-110 transition ease-out duration-300"
+        className="group-hover:bg-teal-100 btn m-4 inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform hover:scale-110 transition ease-out duration-300"
       >
         Tailwind with Nextjs
         {/* Icon from https://heroicons.com/ */}
